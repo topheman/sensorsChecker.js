@@ -21,7 +21,7 @@ sensorsChecker.checkDevicemotion(function(){
 	},function(){
 		console.error('no sensor detected');
 	},{
-		userAgentCheck: /(iPad|iPhone|Nexus|Mobile|Tablet)/i,//@optional
+		userAgentCheck: /(iPad|iPhone|Nexus|Mobile|Tablet)/i,//@optional (to bypass the sniffing)
 		delay: 600//@optional default delay : 500ms
 	}
 );
@@ -31,5 +31,5 @@ Used in :
 
 * https://github.com/topheman/PanoramaSensorsViewer
 * http://streetview.topheman.com
-* https://github.com/topheman/bombs (to be implemented)
-* https://github.com/topheman/playground2 (to be implemented)
+* https://github.com/topheman/bombs
+* https://github.com/topheman/playground2 (finally, no need for, according to the UX)
