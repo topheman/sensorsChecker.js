@@ -8,8 +8,16 @@ Mostly all recent browsers expose an api for `deviceorientation` and `devicemoti
  * This module will let you check if there is really an accelerometer+gyroscope to rely on.
 
 ```js
+//check the sensors for the deviceorientation api
 sensorsChecker.checkDeviceorientation(function(){
-		console.log('sensor detected');
+		console.log('sensors detected');
+	},function(){
+		console.error('no sensor detected');
+	}
+);
+//check the sensors for the devicemotion api (this time with some options)
+sensorsChecker.checkDevicemotion(function(){
+		console.log('sensors detected');
 	},function(){
 		console.error('no sensor detected');
 	},{
