@@ -1,0 +1,24 @@
+{
+  "name": "sensors-checker",
+  "version": "0.1.0",
+  "description": "Mostly all recent browsers expose an api for deviceorientation and devicemotion events. This module will let you check if there is really an accelerometer+gyroscope to rely on.",
+  "main": "sensorsChecker.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/topheman/sensorsChecker.js.git"
+  },
+  "keywords": [
+    "accelerometer",
+    "devicemotion",
+    "deviceorientation"
+  ],
+  "author": "Christophe Rosset <tophe@topheman.com> (http://labs.topheman.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/topheman/sensorsChecker.js/issues"
+  },
+  "homepage": "https://github.com/topheman/sensorsChecker.js#readme"
+}

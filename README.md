@@ -1,6 +1,8 @@
 sensorsChecker.js
 =================
 
+[![npm version](https://badge.fury.io/js/sensors-checker.svg)](https://www.npmjs.com/package/sensors-checker)
+
 Mostly all recent browsers expose an api for `deviceorientation` and `devicemotion` events.
 
  * That doesn't mean the device you're on has sensors (accelerometer+gyroscope) to feed them.
@@ -33,3 +35,5 @@ Used in :
 * http://streetview.topheman.com
 * https://github.com/topheman/bombs
 * https://github.com/topheman/playground2 (finally, no need for, according to the UX)
+
+Now available on npm: `npm install sensors-checker --save`
