@@ -1,6 +1,6 @@
 {
   "name": "sensors-checker",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Mostly all recent browsers expose an api for deviceorientation and devicemotion events. This module will let you check if there is really an accelerometer+gyroscope to rely on.",
   "main": "sensorsChecker.js",
   "scripts": {
