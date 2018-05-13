@@ -89,7 +89,7 @@
                 throw new Error("success callback missing");
             }
             if(typeof failure !== "function"){
-                throw new Error("success callback missing");
+                throw new Error("failure callback missing");
             }
             
             if(window[eventsMap[event].event]){
